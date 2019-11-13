@@ -48,11 +48,16 @@ div.Logo{
 div.innhold{
   margin-left: 200px;
   padding: 1px 16px;
-  height: 1000px;
 }
 
-h3{
 
+.appbilde1 img{
+  width: 10%;
+
+}
+
+.innhold img{
+  width: 35%;
 }
 
 .footer{
