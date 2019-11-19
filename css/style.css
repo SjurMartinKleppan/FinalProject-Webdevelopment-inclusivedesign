@@ -1,6 +1,11 @@
+html {
+
+}
+
 body{
   padding: 0;
   margin: 0;
+  height:100vh;
   font-family: "Helvetica neue", sans-serif;
 }
 
@@ -12,6 +17,21 @@ body{
   position: fixed;
   height: 100%;
   overflow: auto;
+}
+
+.leaf{
+	background-color: #7DD181;
+	width:200px;
+	text-align:center;
+
+}
+
+.leaf img {
+	width: 75%;
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 .sidenav a{
@@ -36,7 +56,6 @@ body{
 .sidenav img{
   margin: 1.75em 0 0 1.75em;
   width: 75%;
-
 }
 
 div.Logo{
@@ -50,24 +69,34 @@ div.innhold{
   padding: 1px 16px;
 }
 
-
-.appbilde1 img{
-  width: 10%;
-
-}
-
-.innhold img{
-  width: 35%;
-}
-
 .footer{
   position: fixed;
+  height: 50px;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color:#7DD181;
   color: white;
+  text-align: left;
+}
+
+.footer a{
+  display: inline;
+  font-size: 20;
+  color: white;
+  padding: 26px;
   text-align: center;
+  text-decoration: none;
+}
+
+.footer a.active{
+  background-color: #4CAF50;
+  color: white;
+}
+
+.footer a:hover:not(.active){
+  background-color: #555;
+  color: white
 }
 
 @media screen and (max-width: 700px) {
@@ -78,11 +107,39 @@ div.innhold{
   }
   .sidenav a {float: left;}
   div.innhold {margin-left: 0;}
+
+  .leaf {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+ .leaf img {
+	display:block;
+	position:relative;
+	width: 50%;
+}
+
+div.Logo{
+  margin:auto;
+  padding: 1px 16px;
+  height: 100px;
 }
 
 @media screen and (max-width: 400px) {
   .sidenav a {
     text-align: center;
     float: none;
+
   }
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+   .leaf img {
+	display:block;
+	width: 50%;
+}
 }
