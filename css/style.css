@@ -17,21 +17,19 @@ body{
   position: fixed;
   height: 100%;
   overflow: auto;
+  margin-bottom: 50px;
 }
 
 .leaf{
 	background-color: #7DD181;
 	width:200px;
 	text-align:center;
+  position: relative;
 
 }
 
 .leaf img {
 	width: 75%;
-	position:relative;
-	margin-left: auto;
-	margin-right: auto;
-
 }
 
 .sidenav a{
@@ -54,19 +52,41 @@ body{
 }
 
 .sidenav img{
-  margin: 1.75em 0 0 1.75em;
   width: 75%;
 }
-
+#forside {
+  text-align: center;
+}
+#forside h3{
+  font-style: italic;
+  font-weight: bold;
+}
 div.Logo{
   margin-left: 200px;
   padding: 1px 16px;
   height: 100px;
+  text-align: center;
 }
 
-div.innhold{
+.innhold{
   margin-left: 200px;
   padding: 1px 16px;
+  overflow: auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.boks {
+  background-color: gray;
+  height: 400px;
+  width: 240px;
+  border-radius: 20px;
+  border: 4px solid black;
+}
+.boks img{
+  border: 2px solid black;
+  margin-top: 5%;
+  width: 95%;
+  height: 90%;
 }
 
 .footer{
@@ -83,8 +103,13 @@ div.innhold{
 .footer a{
   display: inline;
   font-size: 20;
+<<<<<<< HEAD
   color: black;
   padding: 26px;
+=======
+  color: white;
+  padding: 18px;
+>>>>>>> master
   text-align: center;
   text-decoration: none;
 }
@@ -97,6 +122,21 @@ div.innhold{
 .footer a:hover:not(.active){
   background-color: #555;
   color: white
+}
+#en img {
+  width: 25px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 2px;
+  border-radius: 30%;
+
+}
+#no img{
+  width: 25px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 2px;
+    border-radius: 30%;
 }
 
 @media screen and (max-width: 700px) {
