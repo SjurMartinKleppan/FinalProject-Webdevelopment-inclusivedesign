@@ -37,7 +37,7 @@ body{
 .sidenav a{
   display: block;
   font-size: 20px;
-  color: white;
+  color: black;
   padding: 18px;
   text-align: center;
   text-decoration: none;
@@ -45,7 +45,7 @@ body{
 
 .sidenav a.active{
   background-color: #4CAF50;
-  color: white;
+  color: black;
 }
 
 .sidenav a:hover:not(.active){
@@ -76,14 +76,14 @@ div.innhold{
   bottom: 0;
   width: 100%;
   background-color:#7DD181;
-  color: white;
+  color: black;
   text-align: left;
 }
 
 .footer a{
   display: inline;
   font-size: 20;
-  color: white;
+  color: black;
   padding: 26px;
   text-align: center;
   text-decoration: none;
