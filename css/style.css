@@ -103,19 +103,16 @@ div.Logo{
 .footer a{
   display: inline;
   font-size: 20;
-<<<<<<< HEAD
   color: black;
   padding: 26px;
-=======
-  color: white;
-  padding: 18px;
->>>>>>> master
+  color: black;
+  padding: 17px;
   text-align: center;
   text-decoration: none;
 }
 
 .footer a.active{
-  background-color: #4CAF50;
+  background-color: #555;
   color: white;
 }
 
@@ -136,10 +133,17 @@ div.Logo{
   height: 20px;
   vertical-align: middle;
   margin-right: 2px;
-    border-radius: 30%;
+  border-radius: 30%;
 }
 
 @media screen and (max-width: 700px) {
+  .footer {
+    text-align: center;
+  }
+  .footer a {
+    padding: 2px;
+    align: bottom;
+  }
   .sidenav {
     width: 100%;
     height: auto;
@@ -155,9 +159,7 @@ div.Logo{
   }
 
  .leaf img {
-	display:block;
-	position:relative;
-	width: 50%;
+display: none;
 }
 
 div.Logo{
@@ -179,7 +181,6 @@ div.Logo{
   }
 
    .leaf img {
-	display:block;
-	width: 50%;
+	display: none;
 }
 }
