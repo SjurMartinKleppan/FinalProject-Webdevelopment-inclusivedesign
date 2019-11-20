@@ -103,8 +103,8 @@ div.Logo{
 .footer a{
   display: inline;
   font-size: 20;
-  color: white;
-  padding: 18px;
+  color: black;
+  padding: 17px;
   text-align: center;
   text-decoration: none;
 }
@@ -132,10 +132,16 @@ div.Logo{
   vertical-align: middle;
   margin-right: 2px;
     border-radius: 30%;
+
+}
+
+#sources {
+  text-align: left;
 }
 
 @media screen and (max-width: 700px) {
   .sidenav {
+    display: block;
     width: 100%;
     height: auto;
     position: relative;
@@ -144,6 +150,7 @@ div.Logo{
   div.innhold {margin-left: 0;}
 
   .leaf {
+    display: inline-block;
     width: 100%;
     height: auto;
     position: relative;
@@ -152,7 +159,7 @@ div.Logo{
  .leaf img {
 	display:block;
 	position:relative;
-	width: 50%;
+	width: 20%;
 }
 
 div.Logo{
@@ -165,6 +172,8 @@ div.Logo{
   .sidenav a {
     text-align: center;
     float: none;
+    display: inline-grid;
+    width: 100%;
 
   }
   .sidenav {
