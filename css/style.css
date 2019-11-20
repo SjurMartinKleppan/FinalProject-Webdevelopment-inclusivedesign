@@ -17,21 +17,19 @@ body{
   position: fixed;
   height: 100%;
   overflow: auto;
+  margin-bottom: 50px;
 }
 
 .leaf{
 	background-color: #7DD181;
 	width:200px;
 	text-align:center;
+  position: relative;
 
 }
 
 .leaf img {
 	width: 75%;
-	position:relative;
-	margin-left: auto;
-	margin-right: auto;
-
 }
 
 .sidenav a{
@@ -54,7 +52,6 @@ body{
 }
 
 .sidenav img{
-  margin: 1.75em 0 0 1.75em;
   width: 75%;
 }
 
@@ -67,6 +64,8 @@ div.Logo{
 div.innhold{
   margin-left: 200px;
   padding: 1px 16px;
+  overflow: auto;
+  margin-bottom: 50px;
 }
 
 .footer{
