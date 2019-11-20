@@ -61,6 +61,11 @@ body{
   font-style: italic;
   font-weight: bold;
 }
+.innhold img {
+  width: 55%;
+  height: auto;
+  border-radius: 5%;
+}
 div.Logo{
   margin-left: 200px;
   padding: 1px 16px;
