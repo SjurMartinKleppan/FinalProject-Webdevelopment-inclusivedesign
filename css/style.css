@@ -121,9 +121,9 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
+  width: 60%;
   height: auto;
-  text-align: center;
+ 
 }
 
 .innhold{
@@ -243,9 +243,13 @@ body{
 display: none;
 }
 
-.Logo{
-
-  text-align: center;
+.Logo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  
 }
 
 @media screen and (max-width: 550px) {
@@ -258,6 +262,15 @@ display: none;
     width: 100%;
     height: auto;
     position: relative;
+  }
+  
+.Logo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+ 
   }
 
    .leaf img {
