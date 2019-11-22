@@ -1,5 +1,5 @@
 html {
-
+height:100%;
 }
 
 body{
@@ -9,9 +9,18 @@ body{
   font-family: "Helvetica neue", sans-serif;
 
 }
-.innhold {
+/*.innhold {
   background-image: url("../bilder/forside.jpeg");
   background-size: cover;
+}*/
+
+.bg {
+	background-image: url("../bilder/forside.jpeg");
+	height:100%;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	
 }
 
 .sidenav {
