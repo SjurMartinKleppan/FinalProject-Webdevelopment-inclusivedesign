@@ -7,7 +7,7 @@ body{
   margin: 0;
   height:100vh;
   font-family: "Helvetica neue", sans-serif;
-  
+
 }
 
 .sidenav {
@@ -66,13 +66,12 @@ body{
 <<<<<<< HEAD
   width: 80%;
   height: auto;
-=======
+
   width: 800px;
   height: 500px;
   padding: 10px
 
->>>>>>> master
->>>>>>> master
+
 }
 
 div.Logo{
