@@ -65,6 +65,10 @@ body{
 .innhold img {
   width: 80%;
   height: auto;
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 }
 
 div.Logo{
@@ -210,5 +214,4 @@ div.Logo{
 }
 .innhold {
   margin-bottom: 4.5em;
-}
 }
