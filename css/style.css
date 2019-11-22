@@ -7,7 +7,7 @@ body{
   margin: 0;
   height:100vh;
   font-family: "Helvetica neue", sans-serif;
-  background-image: url("../bilder/mockupAppAvLang.jpg");
+  
 }
 
 .sidenav {
@@ -65,10 +65,6 @@ body{
 .innhold img {
   width: 80%;
   height: auto;
-<<<<<<< HEAD
-=======
-
->>>>>>> master
 }
 
 div.Logo{
