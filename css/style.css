@@ -1,6 +1,5 @@
 html {
 height:100%;
-
 }
 
 body{
@@ -8,12 +7,7 @@ body{
   margin: 0;
   height:100vh;
   font-family: "Helvetica neue", sans-serif;
-
 }
-/*.innhold {
-  background-image: url("../bilder/forside.jpeg");
-  background-size: cover;
-}*/
 
 .background {
 	background-image: url("../bilder/forside.jpeg");
@@ -23,9 +17,7 @@ body{
 	background-position:center;
 	padding:0;
 	margin:0;
-
 }
-
 
 .tittel h1{
 	position:absolute;
@@ -36,7 +28,6 @@ body{
 	top:45%;
   transform: translate(-50%, -50%);
 	padding:16px;
-
 }
 
 .tittel h2{
@@ -65,7 +56,6 @@ body{
 	width:200px;
 	text-align:center;
   position: relative;
-
 }
 
 .leaf img {
@@ -94,9 +84,11 @@ body{
 .sidenav img{
   width: 75%;
 }
+
 #forside {
   text-align: center;
 }
+
 #forside h3{
   font-style: italic;
   font-weight: bold;
@@ -106,15 +98,13 @@ body{
  width: 90%;
  height: auto;
 }
+
 .innhold img {
   width: 80%;
   height: auto;
-
   width: 800px;
   height: 500px;
   padding: 10px
-
-
 }
 
 .Logo img {
@@ -139,6 +129,7 @@ body{
 .innhold h3{
   margin-bottom: 2.5px;
 }
+
 .boks {
   background-color: gray;
   height: 400px;
@@ -146,6 +137,7 @@ body{
   border-radius: 20px;
   border: 4px solid black;
 }
+
 .boks img{
   border: 2px solid black;
   margin-top: 5%;
@@ -155,7 +147,7 @@ body{
 
 #sources{
   text-align: left;
-  padding-top: 50px; 
+  padding-top: 50px;
   padding-left: 50px;
 }
 
@@ -168,6 +160,7 @@ body{
   color: black;
   text-align: left;
 }
+
 .description {
   background-color: white;
   border-radius: 4px;
@@ -196,14 +189,15 @@ body{
   background-color: #555;
   color: white
 }
+
 #en img {
   width: 25px;
   height: 20px;
   vertical-align: middle;
   margin-right: 2px;
   border-radius: 30%;
-
 }
+
 #no img{
   width: 25px;
   height: 20px;
@@ -217,19 +211,23 @@ body{
     text-align: center;
     padding: 10px;
   }
+
   .footer a {
     padding: 4px;
     align: bottom;
   }
+
   .sidenav {
     width: 100%;
     height: auto;
     position: relative;
     text-align: center;
   }
+
   .sidenav a {
     display: inline-block;
   }
+
   div.innhold {
     margin-bottom: 5em;
     margin-left: 0;
@@ -241,25 +239,24 @@ body{
     position: relative;
   }
 
- .leaf img {
-display: none;
-}
+  .leaf img {
+    display: none;
+  }
 
-.Logo img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-  height: auto;
-
-}
+  .Logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+  }
 
 @media screen and (max-width: 550px) {
   .sidenav a {
     text-align: center;
     display: grid;
-
   }
+
   .sidenav {
     width: 100%;
     height: auto;
@@ -272,7 +269,6 @@ display: none;
   margin-right: auto;
   width: 80%;
   height: auto;
-
   }
 
    .leaf img {
