@@ -14,13 +14,13 @@ body{
   background-size: cover;
 }*/
 
-.bg {
+.background {
 	background-image: url("../bilder/forside.jpeg");
 	height:100%;
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position:center;
-	
+
 }
 
 .tittel h1{
@@ -113,11 +113,14 @@ body{
 
 }
 
-div.Logo{
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 60px;
+.Logo img{
+  padding-top: 3em;
+  padding-left: 960px;
+  width: 10%;
+  height: auto;
   text-align: center;
+
+
 }
 
 .innhold{
@@ -238,9 +241,8 @@ display: none;
 }
 
 div.Logo{
-  margin:auto;
-  padding: 1px 16px;
-  height: 100px;
+
+  text-align: center;
 }
 
 @media screen and (max-width: 510px) {
