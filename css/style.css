@@ -91,11 +91,14 @@ body{
 
 }
 
-div.Logo{
- 
+.Logo img{
+  padding-top: 3em;
+  padding-left: 960px;
+  width: 10%;
+  height: auto;
   text-align: center;
-  
-  
+
+
 }
 
 .innhold{
