@@ -9,6 +9,10 @@ body{
   font-family: "Helvetica neue", sans-serif;
 
 }
+.innhold {
+  background-image: url("../bilder/forside.jpeg");
+  background-size: cover;
+}
 
 .sidenav {
   margin: 0;
