@@ -64,8 +64,8 @@ body{
 .innhold img {
   width: 80%;
   height: auto;
-  
 }
+
 div.Logo{
   margin-left: 200px;
   padding: 1px 16px;
@@ -79,6 +79,7 @@ div.Logo{
   overflow: auto;
   margin-bottom: 50px;
   text-align: center;
+  line-height: 1.8;
 }
 .boks {
   background-color: gray;
@@ -92,6 +93,11 @@ div.Logo{
   margin-top: 5%;
   width: 95%;
   height: 90%;
+}
+
+#sources{
+  text-align: left;
+  padding-left: 50px;
 }
 
 .footer{
