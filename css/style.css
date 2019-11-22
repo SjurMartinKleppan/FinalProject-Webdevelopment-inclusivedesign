@@ -14,13 +14,13 @@ body{
   background-size: cover;
 }*/
 
-.bg {
+.background {
 	background-image: url("../bilder/forside.jpeg");
 	height:100%;
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position:center;
-	
+
 }
 
 .sidenav {
