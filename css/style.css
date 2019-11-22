@@ -92,10 +92,10 @@ body{
 }
 
 div.Logo{
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 60px;
+ 
   text-align: center;
+  
+  
 }
 
 .innhold{
@@ -216,9 +216,8 @@ display: none;
 }
 
 div.Logo{
-  margin:auto;
-  padding: 1px 16px;
-  height: 100px;
+
+  text-align: center;
 }
 
 @media screen and (max-width: 510px) {
