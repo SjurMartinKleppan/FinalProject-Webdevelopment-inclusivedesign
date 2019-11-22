@@ -63,14 +63,22 @@ body{
   font-weight: bold;
 }
 .innhold img {
+<<<<<<< HEAD
   width: 80%;
   height: auto;
+=======
+  width: 800px;
+  height: 500px;
+  padding: 10px
+
+>>>>>>> master
+>>>>>>> master
 }
 
 div.Logo{
   margin-left: 200px;
   padding: 1px 16px;
-  height: 100px;
+  height: 60px;
   text-align: center;
 }
 
@@ -81,6 +89,10 @@ div.Logo{
   margin-bottom: 50px;
   text-align: center;
   line-height: 1.8;
+}
+
+.innhold h3{
+  margin-bottom: 2.5px;
 }
 .boks {
   background-color: gray;
