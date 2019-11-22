@@ -23,6 +23,28 @@ body{
 	
 }
 
+.tittel h1{
+	position:absolute;
+	text-align:center;
+	background-color:rgba(2,2,2,0.5);
+	color:white;
+	left:50%;
+	top:35%;
+	padding:16px;
+}
+	
+.tittel h2{
+	position:absolute;
+	text-align:center;
+	background-color:rgba(2,2,2,0.5);
+	color:white;
+	left:35%;
+	top:43%;
+	padding:16px;
+	
+		
+}
+
 .sidenav {
   margin: 0;
   padding: 0;
