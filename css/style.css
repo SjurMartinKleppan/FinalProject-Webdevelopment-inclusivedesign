@@ -22,7 +22,6 @@ body{
 	background-position:center;
 
 }
-
 .tittel h1{
 	position:absolute;
 	text-align:center;
@@ -32,7 +31,7 @@ body{
 	top:35%;
 	padding:16px;
 }
-	
+
 .tittel h2{
 	position:absolute;
 	text-align:center;
@@ -41,8 +40,6 @@ body{
 	left:35%;
 	top:43%;
 	padding:16px;
-	
-		
 }
 
 .sidenav {
