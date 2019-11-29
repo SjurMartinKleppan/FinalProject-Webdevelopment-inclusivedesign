@@ -168,14 +168,20 @@ body{
   margin-left:25px;
   margin-top:25px;
   width:45%;
-  height: 300px;
+  height: 400px;
 }
 
 .tipsboks {
 	display:inline-block;
 }
 
+.tipsboks p{
+  margin: 20px;
+}
 
+.kort h5{
+  font-size: 18px;
+}
 
 
 .innhold h3{
@@ -288,12 +294,11 @@ body{
 
 
 .kort {
-
   background-color:#F0F4F5;
-
   margin-top:25px;
   width:40%;
   display:inline-block;
+  height: 500px;
 }
 
 .tipsboks {
