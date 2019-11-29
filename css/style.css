@@ -120,7 +120,6 @@ body{
 }
 
 .innhold{
-  margin-left: 200px;
   padding: 1px 16px;
   overflow: auto;
   margin-bottom: 50px;
@@ -383,7 +382,7 @@ body{
 	color:white;
 	left:50%;
 	top:70%;
-	padding:16px;
+	padding:40px;
   transform: translate(-50%, -50%);
 }
 
