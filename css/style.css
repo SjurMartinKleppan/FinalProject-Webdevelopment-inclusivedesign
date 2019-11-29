@@ -106,8 +106,6 @@ body{
 .innhold img {
   width: 80%;
   height: auto;
-  width: 800px;
-  height: 500px;
   padding: 10px
 }
 
@@ -302,8 +300,7 @@ body{
 
 .tipsboks {
 	text-align:center;
-  margin: 15px;
-
+	
 }
  .footer {
     text-align: center;
@@ -350,6 +347,10 @@ body{
   }
 
 @media screen and (max-width: 550px) {
+.innhold img {
+    width: 99%;
+    height: auto;
+  }
 	.innhold1{
 	display:inline-block;
 	position:relative;
@@ -361,6 +362,28 @@ body{
 
 
 }
+
+.tittel img{
+	width: 25%;
+	position:absolute;
+	text-align:center;
+	left:50%;
+	top:55%;
+  transform: translate(-50%, -50%);
+	padding:16px;
+}
+
+.tittel h2{
+	position:absolute;
+	text-align:center;
+	background-color:rgba(2,2,2,0.5);
+	color:white;
+	left:50%;
+	top:70%;
+	padding:16px;
+  transform: translate(-50%, -50%);
+}
+
 
 .innhold1 img {
 	width:100%;
