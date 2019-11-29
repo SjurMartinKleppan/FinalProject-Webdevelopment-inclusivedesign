@@ -121,7 +121,8 @@ body{
 
 .innhold{
   padding: 1px 16px;
-  margin-left: 200px;
+  margin-left:20%;
+  margin-right: 10%;
   overflow: auto;
   margin-bottom: 50px;
   text-align: center;
@@ -132,7 +133,8 @@ body{
 .innhold1{
 	display:inline-block;
 	position:relative;
-	margin-left:200px;
+	margin-left:20%;
+  margin-right: 10%;
 	text-align:center;
 	line-height:1.8;
 	padding: 1px 16px;
@@ -143,9 +145,16 @@ body{
 
 .innhold1 img{
 	width:50%;
+}
 
+.innhold2 p {
+  margin-left:10%;
+  margin-right: 10%;
+}
 
-
+.innhold2 h3{
+  margin-left:10%;
+  margin-right: 10%;
 }
 
 .innhold2{
@@ -158,7 +167,6 @@ body{
 	background-color: #D3D3D3;
 	height: 100%;
 	width:auto;
-
 }
 
 
