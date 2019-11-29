@@ -121,6 +121,7 @@ body{
 
 .innhold{
   padding: 1px 16px;
+  margin-left: 200px;
   overflow: auto;
   margin-bottom: 50px;
   text-align: center;
