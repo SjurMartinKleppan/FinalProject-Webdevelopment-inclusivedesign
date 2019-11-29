@@ -106,8 +106,6 @@ body{
 .innhold img {
   width: 80%;
   height: auto;
-  width: 800px;
-  height: 500px;
   padding: 10px
 }
 
@@ -139,15 +137,15 @@ body{
 	line-height:1.8;
 	padding: 1px 16px;
 	width:auto;
-	height:100%;	
-	
+	height:100%;
+
 }
 
 .innhold1 img{
 	width:50%;
-	
-	
-	
+
+
+
 }
 
 .innhold2{
@@ -160,12 +158,12 @@ body{
 	background-color: #D3D3D3;
 	height: 100%;
 	width:auto;
-	
+
 }
 
 
 .kort {
-  float: left; 
+  float: left;
   background-color:#F0F4F5;
   margin-left:25px;
   margin-top:25px;
@@ -260,7 +258,7 @@ body{
 }
 
 @media screen and (max-width: 700px) {
-	
+
 .innhold1{
 	display:inline-block;
 	position:relative;
@@ -268,13 +266,13 @@ body{
 	line-height:1.8;
 	text-align:center;
 	height:100%;
-	
+
 }
 
 .innhold1 img {
 	width:100%;
-	
-	
+
+
 }
 
 .innhold2{
@@ -284,14 +282,14 @@ body{
 	line-height:1.8;
 	text-align:center;
 	height:auto;
-	
+
 }
 
 
 .kort {
-   
+
   background-color:#F0F4F5;
-  
+
   margin-top:25px;
   width:40%;
   display:inline-block;
@@ -299,7 +297,7 @@ body{
 
 .tipsboks {
 	text-align:center;
-	
+
 }
  .footer {
     text-align: center;
@@ -346,6 +344,10 @@ body{
   }
 
 @media screen and (max-width: 550px) {
+.innhold img {
+    width: 99%;
+    height: auto;
+  }
 	.innhold1{
 	display:inline-block;
 	position:relative;
@@ -353,9 +355,9 @@ body{
 	line-height:1.8;
 	text-align:center;
 	height:100%;
-	
-	
-	
+
+
+
 }
 
 .tittel img{
@@ -382,8 +384,8 @@ body{
 
 .innhold1 img {
 	width:100%;
-	
-	
+
+
 }
 
 .innhold2{
@@ -393,11 +395,11 @@ body{
 	line-height:1.8;
 	text-align:center;
 	height:auto;
-	
+
 }
 
 .kort {
-  
+
   background-color:#F0F4F5;
   margin-top:25px;
   width:60%;
