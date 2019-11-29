@@ -24,13 +24,12 @@ body{
 	margin:0;
 }
 
-.tittel h1{
+.tittel img{
+	width: 25%;
 	position:absolute;
 	text-align:center;
-	background-color:rgba(2,2,2,0.5);
-	color:white;
 	left:55%;
-	top:45%;
+	top:22%;
   transform: translate(-50%, -50%);
 	padding:16px;
 }
