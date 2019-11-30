@@ -401,6 +401,21 @@ body{
 
 }
 
+
+.innhold3{
+	display: inline-block;
+	position: relative;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 5%;
+	text-align: center;
+	line-height:1.8;
+	padding: 1px 16px;
+	background-color: #D3D3D3;
+	height: 35%;
+	width:auto;
+}
+
 .tittel img{
 	width: 25%;
 	position:absolute;
