@@ -46,15 +46,13 @@ body{
 }
 
 .sidenav {
-  top: 0;
-  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #7DD181;
   position: fixed;
   height: 100%;
-  width: 200px;
-  overflow: hidden;
-  z-index: 1;
-  background-color: #7DD181;
-  padding-top: 20px;
+  overflow: auto;
 }
 
 .leaf{
@@ -122,10 +120,10 @@ body{
 }
 
 .innhold{
-  padding: 1px 16px 0 30px;
+  padding: 1px 16px;
   margin-left:20%;
   margin-right: 10%;
-  overflow: hidden;
+  overflow: auto;
   margin-bottom: 50px;
   text-align: center;
   line-height: 1.8;
@@ -135,9 +133,7 @@ body{
 .innhold1{
 	display:inline-block;
 	position:relative;
-	margin-left:20%;
-  margin-right: 10%;
-	text-align:center;
+	margin-left:200px;
 	line-height:1.8;
 	padding: 1px 16px;
 	width:auto;
@@ -147,10 +143,19 @@ body{
 
 .innhold1 img{
 	width:50%;
+	margin-left:25%;
+	height:auto;
+}
+
+.innhold1 h3 {
+	text-align:center;
+	
+	
 }
 
 .innhold2 img {
 	width:50%;
+	margin-left:0%;
 }
 
 .innhold1 p {
@@ -169,30 +174,14 @@ body{
 }
 
 .innhold2{
-	display: inline-block;
-	position: relative;
-	margin-left: 20%;
-	margin-right: 10%;
-	text-align: center;
+	display:inline-block;
+	position:relative;
+	margin-left:200px;
+	text-align:center;
 	line-height:1.8;
-	padding: 1px 16px;
+	padding: 1px 0px;
 	background-color: #D3D3D3;
-	width:auto;
 	height: 100%;
-
-}
-
-.innhold3{
-	display: inline-block;
-	position: relative;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 5%;
-	text-align: center;
-	line-height:1.8;
-	padding: 1px 16px;
-	background-color: #D3D3D3;
-	height: 35%;
 	width:auto;
 }
 
@@ -203,7 +192,7 @@ body{
   margin-left:25px;
   margin-top:25px;
   width:45%;
-  height: 400px;
+  height: 300px;
 }
 
 .tipsboks {
@@ -299,20 +288,68 @@ body{
   border-radius: 30%;
 }
 
-@media screen and (max-width: 820px) {
+.innhold4{
+	display:inline-block;
+	position:relative;
+	margin-left:200px;
+	
+	line-height:1.8;
+	padding: 1px 0px;
+	background-color: #D3D3D3;
+	height: auto;
+	
+	
+	
+}
+
+.innhold4 p {
+width:45%;
+float:left;
+}
+
+.innhold4 img {
+float:right;
+	
+}
+
+
+
+@media screen and (max-width: 700px) {
 
 .innhold1{
 	display:inline-block;
 	position:relative;
 	margin-left:0;
 	line-height:1.8;
-	text-align:center;
 	height:100%;
+	margin-right:10%;
+	margin-left:10%;
+
+}
+
+.innhold4{
+	display:inline-block;
+	position:relative;
+	margin-left:0;
+	line-height:1.8;
+	height:100%;
+	margin-right:10%;
+	margin-left:10%;
+
+}
+
+.innhold4 img {
+	width:100%;
+	margin-left:0%;
+	height:auto;
+
 
 }
 
 .innhold1 img {
 	width:100%;
+	margin-left:0%;
+	height:auto;
 
 
 }
@@ -322,7 +359,6 @@ body{
 	position:relative;
 	margin-left:0;
 	line-height:1.8;
-	text-align:center;
 	height:auto;
 
 }
@@ -333,7 +369,7 @@ body{
   margin-top:25px;
   width:40%;
   display:inline-block;
-  height: 500px;
+  height: auto;
 }
 
 .tipsboks {
@@ -394,26 +430,31 @@ body{
 	position:relative;
 	margin-left:0px;
 	line-height:1.8;
-	text-align:center;
 	height:100%;
+	margin-right:10%;
+	margin-left:10%;
 
 
 
 }
 
-
-.innhold3{
-	display: inline-block;
-	position: relative;
-	margin-left: 0%;
-	margin-right: 0%;
-	margin-top: 5%;
-	text-align: center;
+.innhold4{
+	display:inline-block;
+	position:relative;
+	margin-left:0;
 	line-height:1.8;
-	padding: 1px 16px;
-	background-color: #D3D3D3;
-	height: 35%;
-	width:auto;
+	height:100%;
+	margin-right:10%;
+	margin-left:10%;
+
+}
+
+.innhold4 img {
+	width:100%;
+	margin-left:0%;
+	height:auto;
+
+
 }
 
 .tittel img{
@@ -440,6 +481,7 @@ body{
 
 .innhold1 img {
 	width:100%;
+	height:auto;
 
 
 }
@@ -449,9 +491,12 @@ body{
 	position:relative;
 	margin-left:0;
 	line-height:1.8;
-	text-align:center;
 	height:auto;
+}
 
+.innhold2 img {
+	margin-left:25%;
+	margin-left:0%;
 }
 
 .kort {
@@ -461,6 +506,7 @@ body{
   width:80%;
   margin-left: 10%;
   display:inline-block;
+  height:auto;
 }
 
 .tipsboks {
