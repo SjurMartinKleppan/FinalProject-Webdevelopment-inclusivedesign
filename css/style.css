@@ -133,8 +133,7 @@ body{
 .innhold1{
 	display:inline-block;
 	position:relative;
-	margin-left:20%;
-	margin-right: 10%;
+	margin-left:200px;
 	text-align:center;
 	line-height:1.8;
 	padding: 1px 16px;
