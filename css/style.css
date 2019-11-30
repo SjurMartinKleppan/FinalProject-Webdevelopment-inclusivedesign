@@ -46,13 +46,15 @@ body{
 }
 
 .sidenav {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #7DD181;
+  top: 0;
+  left: 0;
   position: fixed;
   height: 100%;
-  overflow: auto;
+  width: 200px;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #7DD181;
+  padding-top: 20px;
 }
 
 .leaf{
@@ -120,10 +122,10 @@ body{
 }
 
 .innhold{
-  padding: 1px 16px;
+  padding: 1px 16px 0 30px;
   margin-left:20%;
   margin-right: 10%;
-  overflow: auto;
+  overflow: hidden;
   margin-bottom: 50px;
   text-align: center;
   line-height: 1.8;
@@ -177,7 +179,7 @@ body{
 	background-color: #D3D3D3;
 	width:auto;
 	height: 100%;
-	
+
 }
 
 .innhold3{
@@ -297,7 +299,7 @@ body{
   border-radius: 30%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 820px) {
 
 .innhold1{
 	display:inline-block;
