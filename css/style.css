@@ -138,7 +138,7 @@ body{
 	padding: 1px 16px;
 	width:auto;
 	height:100%;
-
+  text-align: center;
 }
 
 .innhold1 img{
@@ -149,8 +149,8 @@ body{
 
 .innhold1 h3 {
 	text-align:center;
-	
-	
+
+
 }
 
 .innhold2 img {
@@ -292,14 +292,14 @@ body{
 	display:inline-block;
 	position:relative;
 	margin-left:200px;
-	
+
 	line-height:1.8;
 	padding: 1px 0px;
 	background-color: #D3D3D3;
 	height: auto;
-	
-	
-	
+
+
+
 }
 
 .innhold4 p {
@@ -309,7 +309,7 @@ float:left;
 
 .innhold4 img {
 float:right;
-	
+
 }
 
 
