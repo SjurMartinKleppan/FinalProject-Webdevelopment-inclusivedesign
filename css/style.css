@@ -11,7 +11,7 @@ scroll-behavior: smooth;
 	box-sizing:border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	
+
 }
 
 body{
@@ -118,8 +118,8 @@ body{
 
 .appRad {
   display: flex;
-  justify-content: center; 
-	align-items: center; 
+  justify-content: center;
+	align-items: center;
   flex-wrap: wrap;
   margin-left:200px;
 }
@@ -129,7 +129,7 @@ body{
   flex: 25%;
   max-width: 25%;
   margin-left:3%;
-  
+
 }
 
 .koll img {
@@ -178,7 +178,7 @@ body{
 	height:auto;
 	Background-color:#FCFCFC;
 	font-size:18px;
-  
+
 }
 
 
@@ -191,7 +191,7 @@ body{
 }
 
 
-.innhold3 {	
+.innhold3 {
 	margin-left:200px;
 	background-color:#efefef;
 	width:100%;
@@ -200,8 +200,8 @@ body{
 
 .innhold3 img {
 	width:45%;
-	
-	
+
+
 }
 
 .innhold1 h1{
@@ -209,7 +209,7 @@ body{
 }
 .app1 {
 	float:left;
-	
+
 }
 
 .innhold1 h3 {
@@ -220,10 +220,10 @@ body{
 
 .innhold2 img {
 	width:50%;
-	margin-left:0%;
+	margin-left:25%;
 	border-radius:1em;
-	
-	
+
+
 }
 
 .innhold1 p {
@@ -326,14 +326,15 @@ body{
 }
 
 .footer a{
-  display: inline;
+  display: table-cell;
   font-size: 20;
   color: black;
   padding: 26px;
   color: black;
   padding: 17px;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
+  margin-bottom: 1em;
 }
 
 .footer a.active{
@@ -385,6 +386,9 @@ float:left;
 float:right;
 
 }
+figcaption {
+  text-align: center;
+}
 
 
 
@@ -430,11 +434,11 @@ float:right;
 .koll {
     flex: 50%;
     max-width: 50%;
-	
+
   }
-  
+
   .appRad {
-  
+
   margin-left:0;
 }
 
@@ -523,14 +527,14 @@ float:right;
 	margin-left:0px;
 	line-height:1.8;
 	height:auto;
-	
+
 
 
 
 }
 
  .appRad {
-  
+
   margin-left:0;
 }
 
