@@ -11,7 +11,7 @@ scroll-behavior:smooth;
 	box-sizing:border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-
+	
 }
 
 body{
@@ -118,8 +118,8 @@ body{
 
 .appRad {
   display: flex;
-  justify-content: center;
-	align-items: center;
+  justify-content: center; 
+	align-items: center; 
   flex-wrap: wrap;
   margin-left:200px;
 }
@@ -129,7 +129,7 @@ body{
   flex: 25%;
   max-width: 25%;
   margin-left:3%;
-
+  
 }
 
 .koll img {
@@ -178,7 +178,7 @@ body{
 	height:auto;
 	Background-color:#FCFCFC;
 	font-size:18px;
-
+  
 }
 
 
@@ -189,12 +189,12 @@ body{
 }
 
 #glacier {
-	width:50%;
+	width:100%;
 	
 }
 
 
-.innhold3 {
+.innhold3 {	
 	margin-left:200px;
 	background-color:#efefef;
 	width:100%;
@@ -203,16 +203,22 @@ body{
 
 .innhold3 img {
 	width:45%;
-
-
+	
+	
 }
 
 .innhold1 h1{
 	text-align:center;
 }
+
+.innhold h2 {
+	text-aling:center;
+}
+
+
 .app1 {
 	float:left;
-
+	
 }
 
 .innhold1 h3 {
@@ -222,20 +228,12 @@ body{
 }
 
 .innhold2 img {
-<<<<<<< HEAD
 	width: 25%;
     margin-left: 37%;
     height: auto;
     border-radius: 1em;
 	
 	
-=======
-	width:50%;
-	margin-left:25%;
-	border-radius:1em;
-
-
->>>>>>> master
 }
 
 .innhold1 p {
@@ -327,7 +325,12 @@ body{
   background-color:#7DD181;
   color: black;
   text-align: left;
+  
+
+  
+  
 }
+
 
 .description {
   background-color: white;
@@ -338,14 +341,14 @@ body{
 }
 
 .footer a{
+  display: inline;
   font-size: 20;
   color: black;
   padding: 26px;
   color: black;
   padding: 17px;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
-  margin-bottom: 1em;
 }
 
 
@@ -358,6 +361,7 @@ body{
   background-color: #555;
   color: white
 }
+
 
 #en img {
   width: 25px;
@@ -375,35 +379,7 @@ body{
   border-radius: 30%;
 }
 
-<<<<<<< HEAD
-=======
-.innhold4{
-	display:inline-block;
-	position:relative;
-	margin-left:200px;
 
-	line-height:1.8;
-	padding: 1px 0px;
-	background-color: #D3D3D3;
-	height: auto;
-
-
-
-}
-
-.innhold4 p {
-width:45%;
-float:left;
-}
-
-.innhold4 img {
-float:right;
-
-}
-figcaption {
-  text-align: center;
-}
->>>>>>> master
 
 
 
@@ -419,6 +395,17 @@ figcaption {
 
 }
 
+
+.tittel img{
+	width: 50%;
+	position:absolute;
+	text-align:center;
+	left:50%;
+	top:35%;
+  transform: translate(-50%, -50%);
+	padding:16px;
+}
+
 .innhold1 img {
 	width:50%;
 	margin-left:25%;
@@ -430,11 +417,11 @@ figcaption {
 .koll {
     flex: 50%;
     max-width: 50%;
-
+	
   }
-
+  
   .appRad {
-
+  
   margin-left:0;
 }
 
@@ -458,15 +445,11 @@ figcaption {
 	text-align:center;
 
 }
-.innhold2 img {
-  width: 80%;
-  margin-left: 10%;
-}
 
 
 
 .kort {
-  background-color:#F0F4F5;
+  background-color:#efefef;
   margin-top:25px;
   width:40%;
   display:inline-block;
@@ -481,8 +464,6 @@ figcaption {
  .footer {
     text-align: center;
     padding: 10px;
-    position: relative;
-    height: auto;
   }
 
   .footer a {
@@ -529,20 +510,21 @@ figcaption {
     width: 99%;
     height: auto;
   }
-	.innhold1{
+  
+.innhold1{
 	display:inline-block;
 	position:relative;
 	margin-left:0px;
 	line-height:1.8;
 	height:auto;
-
+	
 
 
 
 }
 
  .appRad {
-
+  
   margin-left:0;
 }
 
@@ -557,7 +539,7 @@ figcaption {
 
 
 .tittel img{
-	width: 25%;
+	width: 50%;
 	position:absolute;
 	text-align:center;
 	left:50%;
@@ -572,7 +554,7 @@ figcaption {
 	background-color:rgba(2,2,2,0.5);
 	color:white;
 	left:50%;
-	top:70%;
+	top:80%;
 	padding:40px;
   transform: translate(-50%, -50%);
 }
@@ -594,22 +576,15 @@ figcaption {
 	height:auto;
 }
 
-<<<<<<< HEAD
 .innhold2 img {
 	width:50%;
 	margin-left:25%;
 	border-radius:1em;
-=======
-.innhold2 img{
-	margin-left: 5%;
-  width: 90%;
-	border-radius: 1em;
->>>>>>> master
 }
 
 .kort {
 
-  background-color:#B9BABD;
+  background-color:#efefef;
   margin-top:25px;
   width:80%;
   margin-left: 10%;
@@ -645,4 +620,6 @@ figcaption {
 }
 .innhold {
   margin-bottom: 4.5em;
+}
+
 }
