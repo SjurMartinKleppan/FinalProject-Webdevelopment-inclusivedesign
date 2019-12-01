@@ -456,6 +456,10 @@ figcaption {
 	text-align:center;
 
 }
+.innhold2 img {
+  width: 80%;
+  margin-left: 10%;
+}
 
 
 
@@ -475,6 +479,8 @@ figcaption {
  .footer {
     text-align: center;
     padding: 10px;
+    position: relative;
+    height: auto;
   }
 
   .footer a {
@@ -600,9 +606,10 @@ figcaption {
 	height:auto;
 }
 
-.innhold2 img {
-	margin-left:25%;
-	border-radius:1em;
+.innhold2 img{
+	margin-left: 5%;
+  width: 90%;
+	border-radius: 1em;
 }
 
 .kort {
