@@ -1,9 +1,9 @@
 html {
-height:100%;
-width:100%;
+
 margin:0;
 padding:0;
-scroll-behavior: smooth;
+overflow-y:auto;
+scroll-behavior:smooth;
 
 }
 
@@ -184,10 +184,13 @@ body{
 
 
 .innhold1 img{
+	width:25%;
+	margin-left:37%;
+}
+
+#glacier {
 	width:50%;
-	margin-left:25%;
-	height:auto;
-	border-radius:1em;
+	
 }
 
 
@@ -219,9 +222,10 @@ body{
 }
 
 .innhold2 img {
-	width:50%;
-	margin-left:0%;
-	border-radius:1em;
+	width: 25%;
+    margin-left: 37%;
+    height: auto;
+    border-radius: 1em;
 	
 	
 }
@@ -336,6 +340,7 @@ body{
   text-decoration: none;
 }
 
+
 .footer a.active{
   background-color: #555;
   color: white;
@@ -362,29 +367,6 @@ body{
   border-radius: 30%;
 }
 
-.innhold4{
-	display:inline-block;
-	position:relative;
-	margin-left:200px;
-
-	line-height:1.8;
-	padding: 1px 0px;
-	background-color: #D3D3D3;
-	height: auto;
-
-
-
-}
-
-.innhold4 p {
-width:45%;
-float:left;
-}
-
-.innhold4 img {
-float:right;
-
-}
 
 
 
@@ -400,29 +382,10 @@ float:right;
 
 }
 
-.innhold4{
-	display:inline-block;
-	position:relative;
-	margin-left:0;
-	line-height:1.8;
-	height:100%;
-	margin-right:10%;
-	margin-left:10%;
-
-}
-
-.innhold4 img {
-	width:100%;
-	margin-left:0%;
-	height:auto;
-
-
-}
-
 .innhold1 img {
-	width:100%;
-	margin-left:0%;
-	height:auto;
+	width:50%;
+	margin-left:25%;
+	border-radius:1em;
 
 
 }
@@ -446,6 +409,12 @@ float:right;
 	height:auto;
 	font-size:18px;
 
+}
+
+.innhold2 img {
+	width:50%;
+	margin-left:25%;
+	border-radius:1em;
 }
 
 .innhold2 h1{
@@ -540,24 +509,9 @@ float:right;
 	margin:0;
   }
 
-.innhold4{
-	display:inline-block;
-	position:relative;
-	margin-left:0;
-	line-height:1.8;
-	height:100%;
-	margin-right:10%;
-	margin-left:10%;
-
-}
-
-.innhold4 img {
-	width:100%;
-	margin-left:0%;
-	height:auto;
 
 
-}
+
 
 .tittel img{
 	width: 25%;
@@ -582,8 +536,9 @@ float:right;
 
 
 .innhold1 img {
-	width:100%;
-	height:auto;
+	width:50%;
+	margin-left:25%;
+	border-radius:1em;
 
 
 }
@@ -597,6 +552,7 @@ float:right;
 }
 
 .innhold2 img {
+	width:50%;
 	margin-left:25%;
 	border-radius:1em;
 }
