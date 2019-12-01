@@ -338,7 +338,6 @@ body{
 }
 
 .footer a{
-  display: table-cell;
   font-size: 20;
   color: black;
   padding: 26px;
